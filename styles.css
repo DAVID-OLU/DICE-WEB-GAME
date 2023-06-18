@@ -40,3 +40,32 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 } 
+
+@media (max-width: 600px) {
+  h1, h2 {
+    font-size: 60px;
+  }
+
+  footer {
+    padding-bottom: 75px;
+  }
+
+}
+
+@media (max-width: 440px) {
+  h1, h2 {
+    font-size: 40px;
+  }
+
+  footer {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width :320px) {
+  h1, h2 {
+    font-size: 30px;
+  }
+}
+
+
