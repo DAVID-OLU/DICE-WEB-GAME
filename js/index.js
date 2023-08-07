@@ -1,8 +1,13 @@
 
+function pageRefresh() {
+    window.location.reload();
+}
+
 var player1 = prompt("Enter player1 name: ");
 if (player1 === "" ) {
     alert("Please enter player1 name. ");
 }
+
 var player2 = prompt("Enter player2 name: ");
 if (player2 === "" ) {
     alert("Please enter player2 name. ");

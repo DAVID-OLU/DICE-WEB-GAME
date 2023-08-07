@@ -33,6 +33,26 @@ img {
   width: 80%;
 }
 
+.play-button {
+  text-align: center;
+  align-items: center;
+  margin-top: 8rem;
+  padding: 18px 55px;
+  border-radius: 5px solid green;
+  color: green;
+  
+}
+
+.button-area {
+  margin-bottom: 9%;
+  margin-top: 8%;
+}
+
+.play-button:hover {
+  color: #fff;
+  background-color: green;
+}
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;
